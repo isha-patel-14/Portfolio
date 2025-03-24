@@ -360,6 +360,38 @@ section {
     background: var(--secondary-color);
 }
 
+/* Education Section */
+.education-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.education-item {
+    background: var(--bg-primary);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(156, 154, 154, 0.164);
+    transition: var(--transition);
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+}
+
+.education-item h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.education-item p {
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
